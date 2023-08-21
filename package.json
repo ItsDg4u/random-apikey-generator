@@ -1,0 +1,22 @@
+{
+  "name": "random-apikey-generator",
+  "version": "1.0.0",
+  "description": "A simple Node.js Package for generating random APi keys.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsDg4u/random-apikey-generator.git"
+  },
+  "keywords": [
+    "apiKey"
+  ],
+  "author": "Dharmendra Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItsDg4u/random-apikey-generator/issues"
+  },
+  "homepage": "https://github.com/ItsDg4u/random-apikey-generator#readme"
+}
