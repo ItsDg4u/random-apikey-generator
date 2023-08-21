@@ -1,6 +1,6 @@
 {
   "name": "@itsdg4u/random-apikey-generator",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A simple Node.js Package for generating random APi keys.",
   "main": "index.js",
   "scripts": {
