@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/ItsDg4u/random-apikey-generator/issues"
   },
-  "homepage": "https://github.com/ItsDg4u/random-apikey-generator#readme"
+  "homepage": "https://github.com/ItsDg4u/random-apikey-generator#readme",
+  "dependencies": {
+    "base-64": "^1.0.0"
+  }
 }

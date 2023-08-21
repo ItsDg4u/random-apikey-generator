@@ -1,4 +1,5 @@
 const crypto = require('crypto');
+const base64 = require('base-64');
 
 function generateRandomPassword(length = 36) {
   const charset = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()';
@@ -6,7 +7,7 @@ function generateRandomPassword(length = 36) {
   const password = Array.from(randomBytes)
     .map(byte => charset[byte % charset.length])
     .join('');
-  return Buffer.from(password).toString('base64');
+  return base64.encode(password);
 }
 
 module.exports = generateRandomPassword;
